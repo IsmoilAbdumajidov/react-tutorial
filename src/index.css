@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container {
+    max-width: 1400px;
+    margin-inline: auto;
+    padding: 20px;
+}
+
+input {
+    color: black;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    margin-right: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0f95ee;
+    border-radius: 50px;
+    /* text-transform: ; */
+    margin-right: 2px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+
+}
